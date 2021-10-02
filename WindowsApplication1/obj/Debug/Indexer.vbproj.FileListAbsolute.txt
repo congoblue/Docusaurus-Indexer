@@ -8,3 +8,15 @@ C:\Users\Boardroom\Documents\Visual Studio 2015\Projects\WindowsApplication1\Win
 C:\Users\Boardroom\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
 C:\Users\Boardroom\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
 C:\Users\Boardroom\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\obj\Debug\Indexer.vbprojAssemblyReference.cache
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\obj\Debug\Indexer.vbproj.GenerateResource.cache
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\obj\Debug\Indexer.vbproj.CoreCompileInputs.cache
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Boardroom\Documents\GitHub\Docusaurus-Indexer\WindowsApplication1\obj\Debug\WindowsApplication1.pdb

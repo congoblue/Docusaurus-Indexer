@@ -32,7 +32,7 @@ Public Class Form1
 
             Dim linktext = Replace(filename, TextBox1.Text, "")
 
-            If linktext <> "\alpha-index.md" And InStr(linktext, "quick-start") = 0 Then 'do not index ourselves, or the quick-start section
+            If linktext <> "\alpha-index.md" And InStr(linktext, "quick-start") = 0 And InStr(linktext, "button-reference") = 0 Then 'do not index ourselves, or the quick-start section
 
                 Dim Lines() As String = IO.File.ReadAllLines(filename)
                 Dim i = 0
@@ -78,17 +78,21 @@ Public Class Form1
         file.WriteLine("title: Alphabetic Index")
         file.WriteLine("sidebar_label: Alphabetic Index")
         file.WriteLine("---")
+        file.WriteLine(vbCrLf & "import Keys from '@site/src/components/key.ts';")
+        file.WriteLine("import Video from '@site/src/components/video.tsx';")
+        file.WriteLine(vbCrLf)
+
         file.WriteLine(vbCrLf & "## " & alpha) 'write the first letter
         Dim c = 0
         For Each cap In entries
-            If UCase(Mid(cap, 2, 1)) <> alpha Then 'if the first letter changes, write a new heading for it
+            If UCase(Mid(cap, 2, 1)) <> alpha And Asc(UCase(Mid(cap, 2, 1))) >= 65 Then 'if the first letter changes, write a new heading for it
                 alpha = UCase(Mid(cap, 2, 1))
                 file.WriteLine("  " & vbCrLf & "## " & alpha)
             End If
 
             If c < UBound(entries) Then
                 If UCase(Mid(entries(c + 1), 2, 1)) = alpha Then
-                    file.WriteLine(cap & "\") 'if we are continuing with the same letter, write the item with a line break character
+                    file.WriteLine(cap & "<br/>") 'if we are continuing with the same letter, write the item with a line break character
                 Else
                     file.WriteLine(cap) 'if a new letter, write the item but no line break
                 End If
